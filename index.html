@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap"
+        rel="stylesheet">
+    <title>Coffe Page</title>
+</head>
+
+<body>
+    <header class="header">
+        <section>
+            <a href="#" class="logo">
+                <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD+klEQVR4nO2YW4gbVRjHo0VUBJG64Ey6u7BQ9KGibaWtYBEL+lS1VUR9sNXqo88+9E3wRbCVilu1iKAURQTfxNuLtDPp1Ur3YvHBsnY3a9Zu6950d5JzzvzkZJOdk9nJJpNJYgr5wwfJzJf5/r9z+SYzqVRXXXXVMgG2jtSNJmAf8AeB9OeXUp0u4A7gc6rrC52T6kQBG4GhkOHpUpga1rmpThKwG5gJGf0QuK0UH4XO6dzdqU4Q8CggDXNLwIGIvFdL58pSwJvAzf+P88DYa6HN+lDV3MK1h1FqPDQb3wB3tde1aWp5iRwC3gd6InPOrL9TuNYnwrEL8symgloYnQxB/A480C7D23TUne+m7xOu/at0bVYi04vMDl4vLSNz6b3SSuO3AEdKxfx6NqFw008Lx56tMG/GpQNLqPy/odk4pms127wFnAgVer1q/lepdcK13haO7Vc1X44Lj6C8P/8OXdtp2h0c2ApkQwW+Bm6PzD+bvlu61o81jZtx+l6YccL3C11zS1LzmwFzdHS7PAjcFJWfz6S3CMcei2XeLUcadeXwLEqZ+0LXfjDJmh8xLnYNeKJavjxp7ROOtdiYeTuI0RcLSi79E7pzx98TwMvGRWaB+yPzvt14q3Cs9xIbd4NQv+wCuVgw6u9vBOB74wJvROZcfGpA5Y5Pkp+ibuWn8LNHkZn+tSHG3jJ/9V0jAObNpj98Xjj3PKayH4dbYN3yJwbXnonz24Nk6U03AmBupor/K+KkvVc4Vj7WyIeVn6qxlDYYtArh2nviAqyo4rhj9wvXXtBFTNW7viPlTeKPv7tqWZkSjj3PiXRfYgDh2IejCiQCKKkIUSVXfxeu/U5iAOlaQ60CwJtcE0C61sXkM+Ba080CkDWus3oGrOlmAMw0F2CDcUTVApjpOAA19GTVztTxAEqbX7y88t3/68sbC6BCcg55bmubAfzgWb74lFULINNHpMQc6tL+msut+QBe8G9DDe+pCaCGn6k0ns8tL5tzm+vaL00H8HPHgyRvAjXyXPRMZHpRI8+CF7yQ8HOfxd7wTQeQP+8AuUBsyXnk+W0dAKCXxejzULgay7wafaGhlitaAVCMs5vwc5+Cl63Y2CvSx7zs8rKpY+Rl2wFaFEkBzKFc13aAjNFyfdkQgPkOc2e7AZTuWmV5Ew0B6DdkZY0Bu/RMtBwg07d8v4houXEBBoB5WiB/7jTy1IBhuhf/+g81W24sgBLE40CCB9/qUsN7A4ALO+tqucK1xmMBlCB6gA+AK6GN3ZoZ8HXLnYhsucK1j8UGWAX0k92jR6JdrVQao6/fuyYGKEKc6l0vXPuocKzfhGtfbmk4xRqDumZTzHfVVapC/wFsiBkDxrN/8AAAAABJRU5ErkJggg==">
+            </a>
+
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">Sobre</a>
+                <a href="#menu">Menu</a>
+                <a href="#review">Avaliações</a>
+                <a href="#address">Endereço</a>
+            </nav>
+
+            <div class="icons">
+                <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABcklEQVR4nO2WwUpCQRiFL5lusnYJvYL1Dtm6FhnlK4hhaT1F+BpmPUoQbbIgJW3fWhe1+uK3c2FWysxcJMgDAxfunP8bZv575ibJSn9FQAGoAXfAAJhq2HNP7wpZQ0+AMYs1AqpZANeAjlP4GbgEysCGxi7QAvrOvBvzxoA7KvQF1OcV0yIbmjuDx2wvKrTv4as48OOQRhrLXA9Y9Lm870Dex1hzztT7rIAc8KIapz7Ge5kufKFOjbZq3PqYhjKVI8DW7aaBj2kiUzECvKkak2WDt0LAwwy2ei/tbB9TT6ZWBPhaNbohn1M/4nN6VY0z3wAZydgIADfltRBa9zVXZbb4q3j4DoBveY98Fz2TbpkUbjGYS+Zvb9OBfgKlJET83jgpHMVgW+FQ1LDuvXLONIWm88PgJrtlFPiL9AEcGszJ6mh43gLfshd4U8hMtaCuda/bSJnCfQVsO38mttid5L/AS862Py4N7MCfgIelgldKpB/hgvXNldcwtQAAAABJRU5ErkJggg==">
+                <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA60lEQVR4nO3WsQpBURjA8VsmKwNG5Q1MJoOFlFmKJ7BY5QHkJZTJG9ydYrPZhZXBoAh/XX1ic45z7pH4z1/n11nOdzzvJwPGPFoA1U/AQScg4wS/BwxuNHQ8lwEVgaeu4SiwB85AwjXuy60bruEm4TR6BadDglcqt56HAPdV4F4IcE0FzltGL0BSBY4AG4vw7CX6hA8twl0duG4RLujAMVkYpu2DF1EZFnxiAfa1UIHbFuDWO3AK2BmgWyCuDQueC9YkcNQAD/LByL6F/m5AGVgHGwYomc4pJwfdW5rOfQVckkOXQNF07p/nqit4etkTHpfOQQAAAABJRU5ErkJggg==">
+            </div>
+        </section>
+    </header>
+
+    <div class="home-container">
+        <section id="#home">
+            <div class="content">
+                <h3>VAI UM CAFÉZINHO?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis porro unde ea quia quae harum, vitae
+                    eius dolorem ducimus, dolor beatae qui tempore impedit quos voluptatibus. Optio iure totam ex!</p>
+                <a href="#" class="btn">Pegue o seu agora</a>
+            </div>
+        </section>
+    </div>
+
+    <section class="about" id="about">
+        <h2 class="title">Sobre <span>Nós</span></h2>
+        <div class="row">
+            <div class="container-image">
+                <img src="./img/xicara-de-bebida.png" alt="sobre-nos">
+            </div>
+            <div class="content">
+                <h3>O que faz nosso café especial</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae dolor id facilis ex rem
+                    laudantium, alias quos dolores debitis corrupti iusto provident ipsam? Deserunt ipsum recusandae id
+                    in nulla doloribus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis delectus commodi molestiae sunt
+                    dignissimos tempore unde nulla illum voluptates eveniet eum, veniam praesentium, iure ullam numquam
+                    quas perspiciatis, dolorem aliquid.</p>
+                <a href="#" class="btn">Saiba Mais</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <h2 class="title">Nosso <span>Menu</span></h2>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="./img/menu-1.png" alt="item-1">
+                <h3>Cappuccino</h3>
+                <div class="price">R$ 15,99 <span>R$ 20,99</span></div>
+                <a href="#" class="btn">Adicione ao Carrinho</a>
+            </div>
+            <div class="box">
+                <img src="./img/menu-2.png" alt="item-1">
+                <h3>Cappuccino com Avelã</h3>
+                <div class="price">R$ 10,99 <span>R$ 15,99</span></div>
+                <a href="#" class="btn">Adicione ao Carrinho</a>
+            </div>
+            <div class="box">
+                <img src="./img/menu-3.png" alt="item-1">
+                <h3>Cappuccino com Canela</h3>
+                <div class="price">R$ 15,99 <span>R$ 20,99</span></div>
+                <a href="#" class="btn">Adicione ao Carrinho</a>
+            </div>
+            <div class="box">
+                <img src="./img/menu-4.png" alt="item-1">
+                <h3>Mochaccino</h3>
+                <div class="price">R$ 10,99 <span>R$ 15,99</span></div>
+                <a href="#" class="btn">Adicione ao Carrinho</a>
+            </div>
+            <div class="box">
+                <img src="./img/menu-5.png" alt="item-1">
+                <h3>Mochaccino com Avelã</h3>
+                <div class="price">R$ 10,99 <span>R$ 13,99</span></div>
+                <a href="#" class="btn">Adicione ao Carrinho</a>
+            </div>
+            <div class="box">
+                <img src="./img/menu-6.png" alt="item-1">
+                <h3>Mochaccino com Canela</h3>
+                <div class="price">R$ 12,99 <span>R$ 15,99</span></div>
+                <a href="#" class="btn">Adicione ao Carrinho</a>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
